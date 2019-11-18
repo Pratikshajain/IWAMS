@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Indian WAtershed Management support System
+qgisMinimumVersion=3.0
+description=This plugin help in planning watershed managment projects
+version=0.1
+author=IIT Bombay
+email=pratiksha1jain@gmail.com
+
+about=The plugin is developed for planning watershed management projects especially for Indian scernerio. The plugin has three modules, first, hydrological module to perform detailed process based hydrological modelling at annual scale. second, priotisation module to identify critical areas based on socio-demographic as well as hydrological aspects. Third is soil and water conservation module to identify optimal location for suitable conservation measures.
+
+tracker=http://bugs
+repository=http://repo
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=http://homepage
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
